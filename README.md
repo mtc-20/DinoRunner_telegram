@@ -4,7 +4,9 @@
 
 - Basically takes Chromium's T-Rex runner app from Github
 - Uses the telegram-bot api to integrate the game to Telegram
+- `dinoRunner` is the short name : [telegram][2]
 
 
 
 [1]:https://www.freecodecamp.org/news/how-to-code-chromes-t-rex-as-a-telegram-game-using-node-js-cbcf42f76f4b/
+[2]:t.me/Fcc_game_bot?game=dinoRunner

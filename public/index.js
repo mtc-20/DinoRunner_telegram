@@ -2099,7 +2099,7 @@ var playerID = url.searchParams.get('id')
 
             // Submit Highscore to Telegram
             var xmlhttp = new XMLHttpRequest();
-            var url = 'https://dinorunner-telegram.herokuapp.com' + distance + '?id=' + playerID;
+            var url = 'https://dinorunner-telegram.herokuapp.com/highscore/' + distance + '?id=' + playerID;
             xmlhttp.open('GET', url, true)
             xmlhttp.send();
         },

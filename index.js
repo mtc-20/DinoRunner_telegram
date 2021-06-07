@@ -25,7 +25,7 @@ bot.on('callback_query', function(query) {
     else {
         queries[query.id] = query;
 
-        let gameURL = 'https://dinorunner-telegram.herokuapp.com?id='+query.id
+        let gameURL = 'https://dinorunner-telegram.herokuapp.com/index.html?id='+query.id
 
         bot.answerCallbackQuery({
             callback_query_id: query.id,
