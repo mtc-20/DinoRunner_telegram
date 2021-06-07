@@ -4,7 +4,9 @@
 // extract from chromium source code by @liuwayong
 
 var url = new URL(location.href);
-var playerID = url.searchParams.get('id')
+var playerID = url.searchParams.get('id');
+
+
 (function () {
     'use strict';
     /**
